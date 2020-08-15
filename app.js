@@ -2,7 +2,7 @@ const fs = require('fs')
 var express = require('express')
 var bodyParser = require('body-parser')
 var path = require('path')
-// 路由加载
+
 var mount = require('mount-routes')
 
 var app = express()
